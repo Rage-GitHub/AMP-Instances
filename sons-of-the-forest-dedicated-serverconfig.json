@@ -1,0 +1,238 @@
+[
+    {
+        "DisplayName": "Tree Regrowth",
+        "Category": "",
+        "Description": "Enable automatic tree regrowth, triggered when sleeping.\t",
+        "Keywords": "",
+        "FieldName": "Gameplay.TreeRegrowth",
+        "InputType": "checkbox",
+        "IsFlagArgument": true,
+        "ParamFieldName": "Gameplay.TreeRegrowth",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "true",
+        "EnumValues": {
+            "true": "True",
+            "false": "False"
+        }
+    },
+    {
+        "DisplayName": "Damage to Structures",
+        "Category": "",
+        "Description": "",
+        "Keywords": "",
+        "FieldName": "Structure.Damage",
+        "InputType": "checkbox",
+        "IsFlagArgument": true,
+        "ParamFieldName": "Structure.Damage",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "true",
+        "EnumValues": {
+            "true": "True",
+            "false": "False"
+        }
+    },
+    {
+        "DisplayName": "Enemy Spawning",
+        "Category": "Enemies",
+        "Description": "Enable or disable enemy spawns.",
+        "Keywords": "",
+        "FieldName": "GameSetting.Vail.EnemySpawn",
+        "InputType": "checkbox",
+        "IsFlagArgument": true,
+        "ParamFieldName": "GameSetting.Vail.EnemySpawn",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "true",
+        "EnumValues": {
+            "true": "True",
+            "false": "False"
+        }
+    },
+    {
+        "DisplayName": "Enemy Health",
+        "Category": "Enemies",
+        "Description": "Can either be low, normal, or high.",
+        "Keywords": "",
+        "FieldName": "GameSetting.Vail.EnemyHealth",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "GameSetting.Vail.EnemyHealth",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "normal",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Enemy Damage",
+        "Category": "Enemies",
+        "Description": "Can either be low, normal, or high.",
+        "Keywords": "",
+        "FieldName": "GameSetting.Vail.EnemyDamage",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "GameSetting.Vail.EnemyDamage",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "normal",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Enemy Armor",
+        "Category": "Enemies",
+        "Description": "Can either be low, normal, or high.\t",
+        "Keywords": "",
+        "FieldName": "GameSetting.Vail.EnemyArmour",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "GameSetting.Vail.EnemyArmour",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "normal",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Enemy Aggression",
+        "Category": "Enemies",
+        "Description": "Can either be low, normal, or high.\t",
+        "Keywords": "",
+        "FieldName": "GameSetting.Vail.EnemyAggression",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "GameSetting.Vail.EnemyAggression",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "normal",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Animal Spawn Rate",
+        "Category": "Environment",
+        "Description": "Can either be low, normal, or high.\t",
+        "Keywords": "",
+        "FieldName": "GameSetting.Vail.AnimalSpawnRate",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "GameSetting.Vail.AnimalSpawnRate",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "normal",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Starting Season",
+        "Category": "Environment",
+        "Description": "Can either be spring, summer, autumn, or winter.",
+        "Keywords": "",
+        "FieldName": "GameSetting.Environment.StartingSeason",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "GameSetting.Environment.StartingSeason",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "autumn",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Season Length",
+        "Category": "Environment",
+        "Description": "Can either be short, default, long, or realistic.",
+        "Keywords": "",
+        "FieldName": "GameSetting.Environment.SeasonLength",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "GameSetting.Environment.SeasonLength",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "default",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Day Length",
+        "Category": "Environment",
+        "Description": "Can either be short, default, long, or realistic.",
+        "Keywords": "",
+        "FieldName": "GameSetting.Environment.DayLength",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "GameSetting.Environment.DayLength",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "default",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Precipitation Frequency",
+        "Category": "Environment",
+        "Description": "Can either be low, default, or high.",
+        "Keywords": "",
+        "FieldName": "GameSetting.Environment.PrecipitationFrequency",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "GameSetting.Environment.PrecipitationFrequency",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "default",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Consumable Effects",
+        "Category": "Survival",
+        "Description": "Enables damage taken when low on hydration or hunger. Can either be normal or hard.",
+        "Keywords": "",
+        "FieldName": "GameSetting.Survival.ConsumableEffects",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "GameSetting.Survival.ConsumableEffects",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "normal",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Stats Damage",
+        "Category": "Survival",
+        "Description": "Enable damage from each bad or rotten food and drink. Can either be off, normal, or hard.",
+        "Keywords": "",
+        "FieldName": "GameSetting.Survival.PlayerStatsDamage",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "GameSetting.Survival.PlayerStatsDamage",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "normal",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Cold Penalties",
+        "Category": "Survival",
+        "Description": "Adjusts the severity that cold will affect health and stamina regeneration. Can either be off, normal, or hard.",
+        "Keywords": "",
+        "FieldName": "GameSetting.Survival.ColdPenalties",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "GameSetting.Survival.ColdPenalties",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "normal",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Reduced Food Spawns",
+        "Category": "Survival",
+        "Description": "Reduces the amount of food found in containers.",
+        "Keywords": "",
+        "FieldName": "GameSetting.Survival.ReducedFoodInContainers",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "GameSetting.Survival.ReducedFoodInContainers",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "true",
+        "EnumValues": {
+            "true": "True",
+            "false": "False"
+        }
+    },
+    {
+        "DisplayName": "Single Use Containers",
+        "Category": "Survival",
+        "Description": "Containers can only be opened once.",
+        "Keywords": "",
+        "FieldName": "GameSetting.Survival.SingleUseContainers",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "GameSetting.Survival.SingleUseContainers",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "true",
+        "EnumValues": {
+            "true": "True",
+            "false": "False"
+        }
+    }
+]
