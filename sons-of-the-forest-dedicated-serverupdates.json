@@ -1,15 +1,15 @@
 [
     {
-        "UpdateStageName": "",
+        "UpdateStageName": "Config File Download",
         "UpdateSourcePlatform": "Windows",
         "UpdateSource": "SteamCMD",
         "UpdateSourceData": "2465200",
-        "UpdateSourceArgs": "463209",
+        "UpdateSourceArgs": "1326470",
         "UpdateSourceVersion": "",
         "UpdateSourceTarget": "",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
-        "ForceDownloadPlatform": null,
+        "ForceDownloadPlatform": "Windows",
         "UpdateSourceConditionSetting": null,
         "UpdateSourceConditionValue": null,
         "DeleteAfterExtract": true,
